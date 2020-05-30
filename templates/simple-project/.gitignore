@@ -1,0 +1,16 @@
+  
+# SFDX
+.sfdx
+.salesforce
+
+# Node
+node_modules
+
+# IntelliJ related
+.idea/
+*.iml
+*.iws
+
+# VS Code related
+.vscode
+
