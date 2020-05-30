@@ -26,7 +26,7 @@ export default class ProjectGenerator extends Base {
   public async run(): Promise<AnyJson> {
     try {
 
-      super.generate(this.flags.name, {});
+      await super.generate(this.flags.name, {});
 
     } catch (error) {
       this.ux.error(error);
